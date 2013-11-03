@@ -15,12 +15,12 @@
 		634E00A01825F9F4005B9AD4 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E009F1825F9F4005B9AD4 /* CardGameAppDelegate.m */; };
 		634E00A31825F9F4005B9AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634E00A11825F9F4005B9AD4 /* Main.storyboard */; };
 		634E00A61825F9F4005B9AD4 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E00A51825F9F4005B9AD4 /* CardGameViewController.m */; };
-		634E00A81825F9F4005B9AD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634E00A71825F9F4005B9AD4 /* Images.xcassets */; };
 		634E00AF1825F9F4005B9AD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634E00AE1825F9F4005B9AD4 /* XCTest.framework */; };
 		634E00B01825F9F4005B9AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634E008F1825F9F4005B9AD4 /* Foundation.framework */; };
 		634E00B11825F9F4005B9AD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634E00931825F9F4005B9AD4 /* UIKit.framework */; };
 		634E00B91825F9F4005B9AD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634E00B71825F9F4005B9AD4 /* InfoPlist.strings */; };
 		634E00BB1825F9F4005B9AD4 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E00BA1825F9F4005B9AD4 /* MatchismoTests.m */; };
+		634E00D11826E8B5005B9AD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634E00D01826E8B5005B9AD4 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +47,12 @@
 		634E00A21825F9F4005B9AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634E00A41825F9F4005B9AD4 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		634E00A51825F9F4005B9AD4 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
-		634E00A71825F9F4005B9AD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		634E00AD1825F9F4005B9AD4 /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634E00AE1825F9F4005B9AD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		634E00B61825F9F4005B9AD4 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		634E00B81825F9F4005B9AD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		634E00BA1825F9F4005B9AD4 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		634E00D01826E8B5005B9AD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../iOS_Stanford_CS193P_Fall2013_Matchismo/Matchismo/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				634E00A11825F9F4005B9AD4 /* Main.storyboard */,
 				634E00A41825F9F4005B9AD4 /* CardGameViewController.h */,
 				634E00A51825F9F4005B9AD4 /* CardGameViewController.m */,
-				634E00A71825F9F4005B9AD4 /* Images.xcassets */,
+				634E00D01826E8B5005B9AD4 /* Images.xcassets */,
 				634E00961825F9F4005B9AD4 /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -229,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634E00A81825F9F4005B9AD4 /* Images.xcassets in Resources */,
+				634E00D11826E8B5005B9AD4 /* Images.xcassets in Resources */,
 				634E009A1825F9F4005B9AD4 /* InfoPlist.strings in Resources */,
 				634E00A31825F9F4005B9AD4 /* Main.storyboard in Resources */,
 			);
