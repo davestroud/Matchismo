@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>635B0B4D-7309-4678-BE33-30F8AF7D6E33</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Matchismo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6066D9D3-913F-44C4-A6E4-37D6E27F96D4</key>
+		<string>ssh://github.com/davestroud/Matchismo.git</string>
+		<key>85CC1652-1941-4B76-B9BF-B6A5C87341EA</key>
+		<string>ssh://github.com/davestroud/iOS_Stanford_CS193P_Fall2013_Matchismo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Matchismo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6066D9D3-913F-44C4-A6E4-37D6E27F96D4</key>
+		<string>../..</string>
+		<key>85CC1652-1941-4B76-B9BF-B6A5C87341EA</key>
+		<string>../../../../iOS_Stanford_CS193P_Fall2013_Matchismo</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/davestroud/Matchismo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6066D9D3-913F-44C4-A6E4-37D6E27F96D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85CC1652-1941-4B76-B9BF-B6A5C87341EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_Stanford_CS193P_Fall2013_Matchismo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6066D9D3-913F-44C4-A6E4-37D6E27F96D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Matchismo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
