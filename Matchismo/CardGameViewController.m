@@ -10,7 +10,7 @@
 
 @interface CardGameViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
-
+@property (weak, nonatomic) int flipCount;
 @end
 
 @implementation CardGameViewController
@@ -26,6 +26,7 @@
                      forState:UIControlStateNormal];
         [sender setTitle:@"A♣" forState:UIControlStateNormal];
     }
+    self.flipCount++;
 }
 
 @end
