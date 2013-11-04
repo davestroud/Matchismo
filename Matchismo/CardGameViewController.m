@@ -9,6 +9,7 @@
 #import "CardGameViewController.h"
 
 @interface CardGameViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 
 @end
 
