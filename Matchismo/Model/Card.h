@@ -10,6 +10,9 @@
 
 @interface Card : NSObject
 
-@property (strong) NSString *contents;
+@property (strong, nonatomic) NSString *contents;
+
+@property (nonatomic) BOOL chosen;
+@property (nonatomic) BOOL matched;
 
 @end
