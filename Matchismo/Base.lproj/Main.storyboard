@@ -181,17 +181,6 @@
     </scenes>
     <resources>
         <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
-        <image name="CardBack" width="64" height="96"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
