@@ -7,7 +7,6 @@
 //
 
 #import "CardGameViewController.h"
-#import "Deck.h"
 #import "PlayingCardDeck.h"
 
 @interface CardGameViewController ()
@@ -37,9 +36,11 @@
                       forState:UIControlStateNormal];
         [sender setTitle:@"" forState:UIControlStateNormal];
     } else {
-        [sender setBackgroundImage:[UIImage imageNamed:@"CardFront"]
-                     forState:UIControlStateNormal];
-        [sender setTitle:@"A♣" forState:UIControlStateNormal];
+        Card *randomCard = [self.deck drawRandomCard];
+        if (randomCard) {
+            [sender setBackgroundImage:[UIImage imageNamed:@"CardFront"] forState:UIControlStateNormal];
+            [sender setTitle:randomCard.contents forState:UIControlStateNormal];
+        }
     }
     self.flipCount++;
 }
