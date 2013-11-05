@@ -82,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630C2F5B182960A700D38649 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				630C2F581828150C00D38649 /* Card.h */,
+				630C2F591828150C00D38649 /* Card.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		634E00831825F9F4005B9AD4 = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				634E00A11825F9F4005B9AD4 /* Main.storyboard */,
-				630C2F581828150C00D38649 /* Card.h */,
-				630C2F591828150C00D38649 /* Card.m */,
+				630C2F5B182960A700D38649 /* Model */,
 				634E00A41825F9F4005B9AD4 /* CardGameViewController.h */,
 				634E00A51825F9F4005B9AD4 /* CardGameViewController.m */,
 				634E00D01826E8B5005B9AD4 /* Images.xcassets */,
