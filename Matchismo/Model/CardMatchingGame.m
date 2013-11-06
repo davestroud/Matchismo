@@ -30,7 +30,7 @@
         for (int i = 0; i < count; i++) {
             Card *card = [deck drawRandomCard];
             if (card) {
-            [self.cards addObject:card];
+                [self.cards addObject:card];
         } else  {
             self = nil;
             break;
@@ -42,9 +42,48 @@
 
 - (Card *)cardAtIndex:(NSUInteger)index
 {
-    return self.cards[index];
+    return (index<[self.cards count]) ? self.cards[index] : nil;
+}
+
+
+static const int MISMATCH_PENALTY = 2;
+
+
+
+- (void)ChooseCardAtIndex:(NSUInteger)index
+{
+    Card *card = [self cardAtIndex:index];
+    
+    if (!card.isMatched) {
+        if (card.isChosen) {
+        card.chosen = NO;
+    } else {
+        // match against other chosen cards
+        for (Card *otherCard in self.cards)  {
+            if (otherCard.isChosen && !otherCard.isMatched){
+                int matchScore = [card match:@[otherCard]];
+                if (matchScore) {
+                    self.score += matchScore;
+        
+                
+            
+            } else {
+                self.score -= MISMATCH_PENALTY;
+    
+            
+                }
+            
+            }
+        }
+        
+        card.chosen = YES;
+        
+        }
+    }
 }
 
 
 
+
 @end
+
