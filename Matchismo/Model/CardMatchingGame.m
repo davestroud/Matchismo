@@ -20,4 +20,37 @@
     if (!_cards)_cards = [[NSMutableArray alloc]init];
     return _cards;
 }
+
+- (instancetype) initWithCardCount:(NSUInteger)count
+                             using:(Deck *)deck
+{
+    self = [super init]; // supers designated initializer
+    
+    if (self)   {
+        
+    }
+    return self;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end
