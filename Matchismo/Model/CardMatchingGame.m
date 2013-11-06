@@ -52,7 +52,7 @@ static const int COST_TO_CHOOSE = 1;
 
 
 
-- (void)ChooseCardAtIndex:(NSUInteger)index
+- (void)chooseCardAtIndex:(NSUInteger)index
 {
     Card *card = [self cardAtIndex:index];
     

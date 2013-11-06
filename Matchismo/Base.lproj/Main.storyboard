@@ -28,7 +28,7 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QXa-ZC-9U2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6k-G4-J2N">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6k-G4-J2N">
                                 <rect key="frame" x="20" y="527" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -172,14 +172,37 @@
                     </view>
                     <connections>
                         <outlet property="flipsLabel" destination="G6k-G4-J2N" id="DLa-8y-AoD"/>
+                        <outletCollection property="cardButtons" destination="XNP-Gr-LBX" id="Ym8-23-g4s"/>
+                        <outletCollection property="cardButtons" destination="7KP-Pf-JKf" id="72T-Kv-dD1"/>
+                        <outletCollection property="cardButtons" destination="jUA-xz-7Xb" id="4ek-Ae-mdk"/>
+                        <outletCollection property="cardButtons" destination="1cl-z1-xXi" id="gEN-B0-dVJ"/>
+                        <outletCollection property="cardButtons" destination="RHj-ue-gmA" id="qgo-cu-Fsa"/>
+                        <outletCollection property="cardButtons" destination="omv-Vm-ALG" id="pLV-ie-Dgl"/>
+                        <outletCollection property="cardButtons" destination="leB-je-RPP" id="kgz-8s-gua"/>
+                        <outletCollection property="cardButtons" destination="2MI-tE-qez" id="fVp-yE-uQf"/>
+                        <outletCollection property="cardButtons" destination="bWD-Vy-R4M" id="dXo-HW-fUn"/>
+                        <outletCollection property="cardButtons" destination="Yik-uB-TXf" id="zsQ-v1-gVR"/>
+                        <outletCollection property="cardButtons" destination="T7b-4W-dZs" id="yyw-Cd-ycc"/>
+                        <outletCollection property="cardButtons" destination="2fW-Ww-9V1" id="obi-lB-7ca"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46" y="112"/>
+            <point key="canvasLocation" x="-657" y="78"/>
         </scene>
     </scenes>
     <resources>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
         <image name="CardBack" width="64" height="96"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
