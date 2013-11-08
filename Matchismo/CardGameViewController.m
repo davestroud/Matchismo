@@ -32,7 +32,6 @@
     return[[PlayingCardDeck alloc]init];
 }
 
-
 - (IBAction)touchCardButton:(UIButton *)sender
 {
     int chosenButtonIndex = [self.cardButtons indexOfObject:sender];
