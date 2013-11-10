@@ -7,6 +7,7 @@
 //
 
 #import "CardGameViewController.h"
+#import "Deck.h"
 #import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
@@ -16,6 +17,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
+
 @end
 
 @implementation CardGameViewController
@@ -24,6 +26,7 @@
 {
     if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
                                                              usingDeck:[self createDeck]];
+    
     return _game;
 }
 
