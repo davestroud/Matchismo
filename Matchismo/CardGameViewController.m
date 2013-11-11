@@ -10,12 +10,15 @@
 
 @interface CardGameViewController ()
 
-@end
+@end	
 
 @implementation CardGameViewController
-- (IBAction)touchCardButton:(UIButton *)sender {
+- (IBAction)touchCardButton:(UIButton *)sender
+{
+    [sender setBackgroundImage:[UIImage imageNamed:@"CardBack"]
+                        forState:UIControlStateNormal];
+    [sender setTitle:@"" forState:UIControlStateNormal];
 }
-
 
 
 @end
