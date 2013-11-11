@@ -188,10 +188,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1123" y="66"/>
+            <point key="canvasLocation" x="-1234" y="66"/>
         </scene>
     </scenes>
     <resources>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
+        <image name="CardBack" width="64" height="96"/>
         <image name="CardBack" width="64" height="96"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
